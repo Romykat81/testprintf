@@ -20,3 +20,4 @@ typedef struct print
 int _printf(const char *format, ...);
 int print_chr(va_list arg, char *buf, unsigned int buf);
 unsigned int handl_buf(char *buf, char c, unsigned int ibuf);
+int ev_print_func(const char *s, int index);
